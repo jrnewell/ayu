@@ -928,6 +928,44 @@
     "content_margin": [12, 6],
     "blur": false
   },
+
+  /*
+   * sidebar scrollbar - use skinny scrollbar
+   */
+  {
+    "class": "scroll_bar_control",
+    "parents": [{"class": "sidebar_container"}],
+    "settings": ["!overlay_scroll_bars"],
+    "layer0.tint": [30, 35, 45],
+    "layer1.opacity": 0
+  },
+  {
+    "class": "scroll_corner_control",
+    "parents": [{"class": "sidebar_container"}],
+    "settings": ["!overlay_scroll_bars"],
+    "layer0.tint": [30, 35, 45],
+    "layer0.opacity": 1.0
+  },
+  {
+    "class": "puck_control",
+    "parents": [{"class": "sidebar_container"}],
+    "settings": ["!overlay_scroll_bars"],
+    "layer0.texture": "ayu/assets/scrollbar-vertical.png",
+    "layer0.inner_margin": [4, 6, 6, 6],
+    "content_margin": [5, 20],
+    "blur": false
+  },
+  {
+    "class": "puck_control",
+    "parents": [{"class": "sidebar_container"}],
+    "attributes": ["horizontal"],
+    "settings": ["!overlay_scroll_bars"],
+    "layer0.texture": "ayu/assets/scrollbar-horizontal.png",
+    "layer0.inner_margin": [6, 4, 6, 6],
+    "content_margin": [20, 5],
+    "blur": false
+  },
+
   {
     "class": "scroll_area_control",
     "settings": ["overlay_scroll_bars"],
@@ -993,37 +1031,6 @@
     "attributes": ["horizontal"],
     "settings": ["overlay_scroll_bars", "ui_wide_scrollbars"],
     "layer0.texture": "ayu/assets/scrollbar-horizontal-wide.png"
-  },
-
-  /* sidebar */
-  {
-    "class": "scroll_bar_control",
-    "parents": [{"class": "sidebar_container"}],
-    "layer0.tint": [30, 35, 45],
-    "layer1.opacity": 0
-  },
-  {
-    "class": "scroll_corner_control",
-    "parents": [{"class": "sidebar_container"}],
-    "layer0.tint": [30, 35, 45],
-    "layer0.opacity": 1.0
-  },
-  {
-    "class": "puck_control",
-    "parents": [{"class": "sidebar_container"}],
-    "layer0.texture": "ayu/assets/scrollbar-vertical.png",
-    "layer0.inner_margin": [4, 6, 6, 6],
-    "content_margin": [5, 20],
-    "blur": false
-  },
-  {
-    "class": "puck_control",
-    "parents": [{"class": "sidebar_container"}],
-    "attributes": ["horizontal"],
-    "layer0.texture": "ayu/assets/scrollbar-horizontal.png",
-    "layer0.inner_margin": [6, 4, 6, 6],
-    "content_margin": [20, 5],
-    "blur": false
   },
 
   /* MINIMAP
