@@ -134,8 +134,8 @@
   },
   {
     "class": "tool_tip_label_control",
-    "settings": ["ui_font_source_code_pro"],
-    "font.face": "Source Code Pro"
+    "settings": ["ui_font_fira_code"],
+    "font.face": "Fira Code"
   },
   {
     "class": "tool_tip_label_control",
@@ -407,8 +407,8 @@
   },
   {
     "class": "tab_label",
-    "settings": ["ui_font_source_code_pro"],
-    "font.face": "Source Code Pro"
+    "settings": ["ui_font_fira_code"],
+    "font.face": "Fira Code"
   },
   {
     "class": "tab_label",
@@ -594,8 +594,8 @@
   },
   {
     "class": "sidebar_heading",
-    "settings": ["ui_font_source_code_pro"],
-    "font.face": "Source Code Pro"
+    "settings": ["ui_font_fira_code"],
+    "font.face": "Fira Code"
   },
   {
     "class": "sidebar_heading",
@@ -630,8 +630,8 @@
   },
   {
     "class": "sidebar_label",
-    "settings": ["ui_font_source_code_pro"],
-    "font.face": "Source Code Pro"
+    "settings": ["ui_font_fira_code"],
+    "font.face": "Fira Code"
   },
   {
     "class": "sidebar_label",
@@ -1055,8 +1055,8 @@
   },
   {
     "class": "label_control",
-    "settings": ["ui_font_source_code_pro"],
-    "font.face": "Source Code Pro"
+    "settings": ["ui_font_fira_code"],
+    "font.face": "Fira Code"
   },
   {
     "class": "label_control",

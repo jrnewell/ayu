@@ -35,9 +35,11 @@
 "ui_native_titlebar":       true, // use native titlebars on macOs
 "ui_separator":             true, // separators between panels
 "ui_font_size_small":       true, // smaller UI font size(sidebar, statusbar etc)
-"ui_font_source_code_pro":  true, // use Source Code Pro (https://fonts.google.com/specimen/Source+Code+Pro) as UI font
+"ui_font_fira_code":        true, // use Fira Code (https://github.com/tonsky/FiraCode) as UI font
 "ui_font_roboto_mono":      true, // use Roboto Mono (https://fonts.google.com/specimen/Roboto+Mono) as UI font
 "ui_wide_scrollbars":       true, // wider scrollbars
+"ui_tabs_medium":           true, // medium tab size
+"ui_tabs_large":            true, // large tab size
 ```
 
 ---
