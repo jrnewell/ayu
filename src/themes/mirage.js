@@ -3,6 +3,7 @@ const $ = require('./color')
 const common = {
   accent: $`FFCC66`,
   bg: $.base`212733`,
+  contrast: $`1E232D`,
   fg: $`CCC9C2`,
   ui: $`667380`
 }

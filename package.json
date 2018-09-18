@@ -28,6 +28,5 @@
     "clear-require": "^2.0.0",
     "color": "^2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }

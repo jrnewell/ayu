@@ -142,11 +142,6 @@
     "settings": ["ui_font_roboto_mono"],
     "font.face": "Roboto mono"
   },
-  {
-    "class": "tool_tip_label_control",
-    "settings": ["ui_font_menlo"],
-    "font.face": "Menlo"
-  },
 
   /* OVERLAY PANELS
    * Overlay panels setting and behavioring
@@ -422,11 +417,6 @@
   },
   {
     "class": "tab_label",
-    "settings": ["ui_font_menlo"],
-    "font.face": "Menlo"
-  },
-  {
-    "class": "tab_label",
     "settings": ["highlight_modified_tabs"],
     "font.italic": true,
     "attributes": ["dirty"],
@@ -589,7 +579,7 @@
   {
     "class": "sidebar_tree",
     "indent_top_level": false,
-    "row_padding": [20, 6],
+    "row_padding": [20, 5],
     "dark_content": false,
     "spacer_rows": true,
     "indent_offset": 2,
@@ -611,11 +601,6 @@
     "class": "sidebar_heading",
     "settings": ["ui_font_roboto_mono"],
     "font.face": "Roboto mono"
-  },
-  {
-    "class": "sidebar_heading",
-    "settings": ["ui_font_menlo"],
-    "font.face": "Menlo"
   },
 
   {
@@ -652,11 +637,6 @@
     "class": "sidebar_label",
     "settings": ["ui_font_roboto_mono"],
     "font.face": "Roboto mono"
-  },
-  {
-    "class": "sidebar_label",
-    "settings": ["ui_font_menlo"],
-    "font.face": "Menlo"
   },
 
   {
@@ -1082,11 +1062,6 @@
     "class": "label_control",
     "settings": ["ui_font_roboto_mono"],
     "font.face": "Roboto mono"
-  },
-  {
-    "class": "label_control",
-    "settings": ["ui_font_menlo"],
-    "font.face": "Menlo"
   },
 
   // Status bar labels

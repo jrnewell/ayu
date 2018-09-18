@@ -17,9 +17,6 @@
     // ayu theme: Display wider scrollbars
     "ui_wide_scrollbars": false,
 
-    // ayu theme: Use Menlo as UI font
-    "ui_font_menlo": false,
-
     // ayu theme: Display slightly-taller tabs
     "ui_tabs_medium": false,
 
